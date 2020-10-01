@@ -12,4 +12,14 @@ function (amazing) {
 	}
 }
 
+function (alsoAmazing) {
+
+	if (Brad === "amazing") {
+		return rep +1;
+	} else {
+		return rep -1;
+	}
+}
+
 amazing();
+alsoAmazing();
