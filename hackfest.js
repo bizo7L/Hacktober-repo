@@ -1,25 +1,9 @@
-var GigaFyde = args;
-var rep = 0;
+const Amazing = require('./Amazing');
 
-if (!GigaFyde) return;
-
-function (amazing) {
-
-	if (GigaFyde === "amazing") {
-		return rep +1;
-	} else {
-		return rep -1;
-	}
+function main(user) {
+    const isAmazing = new Amazing(user);
+    return isAmazing ? `${user} is amazing` : `${user} is not amazing`;
 }
 
-function (alsoAmazing) {
 
-	if (Brad === "amazing") {
-		return rep +1;
-	} else {
-		return rep -1;
-	}
-}
-
-amazing();
-alsoAmazing();
+main(args);
