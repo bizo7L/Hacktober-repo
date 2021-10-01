@@ -1,8 +1,10 @@
 class Amazing {
-    constructor() {}
+    constructor(person) {
+        this.person = person;
+    }
   
-    check(person) {
-        return person ? true : false
+    check() {
+        return this.person ? true : false;
     }
   
 }
